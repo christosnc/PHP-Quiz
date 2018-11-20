@@ -1,0 +1,416 @@
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('Fonts/Inconsolata-Regular.ttf');
+}
+@font-face {
+  font-family: 'NunitoSemiBold';
+  src: url('Fonts/Nunito-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'NunitoBold';
+  src: url('Fonts/Nunito-Bold.ttf');
+}
+
+html, body{
+  margin: 0;
+  background-color: #2B2B2B;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+  padding-bottom: 30px;
+}
+
+.top-bar{
+  position: fixed;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  background-color: black;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  text-align: left;
+}
+
+.top-bar-item{
+  display: inline-block;
+  padding-left: 50px;
+}
+
+.top-bar-item a{
+  font-family: "NunitoSemiBold";
+  color: white;
+  text-decoration: none;
+}
+
+.bottom-bar{
+  position: fixed;
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  background-color: #222222;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.bottom-text{
+  font-family: "NunitoSemiBold";
+  font-size: 14px;
+  color: #FFFFFF;
+  margin-left: 50px;
+}
+
+.button-top{
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  background-color: #3B3B3B;
+  bottom: 100px;
+  right: 100px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.button-top:hover{
+  background-color: #5E5E5E;
+}
+
+.button-help{
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+  font-family: "NunitoSemiBold";
+  font-size: 20px;
+  user-select: none;
+  cursor: pointer;
+  display: none;
+}
+
+.button-scores{
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  font-family: "NunitoSemiBold";
+  font-size: 20px;
+  user-select: none;
+  cursor: pointer;
+  display: none;
+}
+
+.page-title{
+  margin-top: 100px;
+  font-size: 40px;
+  font-family: "NunitoBold";
+}
+
+.box{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-family: "NunitoSemiBold";
+  font-size: 22px;
+}
+
+.title{
+  font-family: "NunitoSemiBold";
+  font-size: 27px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.code{
+  white-space: pre;
+  text-align: left;
+  font-size: 20px;
+  font-family: "Inconsolata";
+  overflow: scroll;
+  transform: translate(100%,0);
+  background-color: #464646;
+  width: 50%;
+  margin-left: -25%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  padding-right: 40px;
+  padding-left: 20px;
+}
+
+.line-number{
+  font-size: 20px;
+  user-select: none;
+  margin-right: 10px;
+  color: #888888;
+}
+
+.option-wrapper{
+  transform: translate(100%,0);
+  background-color: #464646;
+  width: 50%;
+  margin-left: -25%;
+  text-align: left;
+  padding: 0px 40px 25px 40px;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.option{
+  font-family: "NunitoSemiBold";
+  font-size: 20px;
+  margin-top: 25px;
+  height: 18px;
+}
+
+label{
+  word-break: break-all;
+}
+
+.button{
+  padding: 3px 15px;
+  line-height: 45px;
+  outline: none;
+  border: none;
+  user-select: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #2087ED;
+  color: white;
+  font-family: "NunitoBold";
+  font-size: 30px;
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.3);
+}
+
+.button:active{
+  background-color: #016fdc;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.button-start{
+  position: absolute;
+  width: 150px;
+  top: calc(50% - 25px);
+  left: calc(50% - 75px);
+  background-color: #6e14ff;
+}
+
+.button-start:active{
+  background-color: #7e38ef;
+}
+
+.button-finish{
+  font-size: 23px;
+  padding: 0px 19px;
+  line-height: 45px;
+  margin-top: 50px;
+  margin-right: 20%;
+  margin-bottom: 100px;
+}
+
+.button-next{
+  font-size: 23px;
+  padding: 0px 19px;
+  height: 45px;
+  margin-left: 20%;
+}
+
+.button-finish-last{
+  font-size: 23px;
+  padding: 0px 19px;
+  line-height: 45px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.results{
+  margin-top: 50px;
+  font-size: 23px;
+}
+
+.results-top-row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #5E5E5E;
+  padding-bottom: 5px;
+}
+
+.results-top-row-index{
+  grid-column: 1 / 1;
+}
+
+.results-top-row-answer{
+  grid-column: 2 / 2;
+}
+
+.results-top-row-difficulty{
+  grid-column: 3 / 3;
+}
+
+.results-top-row-points{
+  grid-column: 4 / 4;
+}
+
+.results-row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #464646;
+}
+
+.results-index{
+  grid-column: 1 / 1;
+}
+
+.results-answer{
+  grid-column: 2 / 2;
+}
+
+.results-difficulty{
+  grid-column: 3 / 3;
+  text-transform: capitalize;
+}
+
+.results-points{
+  grid-column: 4 / 4;
+}
+
+.results-incorrect{
+  color: #F92672;
+}
+
+.results-correct{
+  color: #A6E22E;
+}
+
+.total-points{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font-size: 30px;
+}
+
+.box2{
+  margin-top: 0px;
+}
+
+.nickname{
+  font-family: "NunitoSemiBold";
+  font-size: 23px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #464646;
+  color: white;
+  padding: 3px 15px;
+  line-height: 45px;
+  height: 45px;
+  margin-right: 25px;
+  width: 236px;
+}
+
+.button-addtoleaderboard{
+  font-size: 23px;
+  height: 45px;
+  line-height: normal;
+  margin-left: 25px;
+  width: 236px;
+  white-space: nowrap;
+}
+
+.or{
+  color: #5E5E5E;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.button-playagain{
+  margin-bottom: 100px;
+}
+
+.scores-top-row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #5E5E5E;
+  padding-bottom: 5px;
+}
+
+.scores-row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #464646;
+}
+
+.scores-rank{
+  grid-column: 1 / 1;
+}
+
+.scores-nickname{
+  grid-column: 2 / 2;
+}
+
+.scores-points{
+  grid-column: 3 / 3;
+}
+
+.add-successful{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  border-radius: 100%;
+  background-color: #A6E22E;
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.3);
+  background-image: url("tick.svg");
+  background-repeat: no-repeat;
+  background-size: 120px 120px;
+  background-position: center;
+}
+
+.add-successful::after{
+  content: "Added to leaderboard!";
+  font-family: "NunitoSemiBold";
+  font-size: 30px;
+  white-space: nowrap;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  bottom: -70px;
+}
+
+.add-unsuccessful{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  border-radius: 100%;
+  background-color: #F92672;
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.3);
+  background-image: url("error.svg");
+  background-repeat: no-repeat;
+  background-size: 120px 120px;
+  background-position: center;
+}
+
+.add-unsuccessful::after{
+  content: "There was an error!";
+  font-family: "NunitoSemiBold";
+  font-size: 30px;
+  white-space: nowrap;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  bottom: -70px;
+}
+
+.instructions{
+  margin-top: 50px;
+}
+
+.instructions div{
+  margin-top: 8px;
+}

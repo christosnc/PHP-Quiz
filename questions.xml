@@ -1,0 +1,1266 @@
+<data>
+  <easy>
+    <question>
+      <title><![CDATA[
+        Who is father of C Language?
+      ]]></title>
+      <option>Bjarne Stroustrup</option>
+      <option>Dennis Ritchie</option>
+      <option>James A. Gosling</option>
+      <option>Dr. E.F. Codd</option>
+      <answer>2</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        C Language developed at _____?
+      ]]></title>
+      <option>AT &amp; T's Bell Laboratories of USA in 1972</option>
+      <option>AT &amp; T's Bell Laboratories of USA in 1970</option>
+      <option>Sun Microsystems in 1973</option>
+      <option>Cambridge University in 1972</option>
+      <answer>1</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        For 16-bit compiler allowable range for integer constants is ______ ?
+      ]]></title>
+      <option>-3.4e38 to 3.4e38</option>
+      <option>-32767 to 32768</option>
+      <option>-32768 to 32767</option>
+      <option>-32668 to 32667</option>
+      <answer>3</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        C programs are converted into machine language with the help of
+      ]]></title>
+      <option>An Editor</option>
+      <option>A compiler</option>
+      <option>An operating system</option>
+      <option>None of the above</option>
+      <answer>2</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        A C variable cannot start with
+      ]]></title>
+      <option>An alphabet</option>
+      <option>A number</option>
+      <option>A special symbol other than underscore</option>
+      <option>both B.and C.</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        Which of the following is allowed in a C Arithmetic instruction
+      ]]></title>
+      <option>[]</option>
+      <option>{}</option>
+      <option>()</option>
+      <option>None of the above</option>
+      <answer>3</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        Which of the following shows the correct hierarchy of arithmetic operations in C
+      ]]></title>
+      <option>/ + * -</option>
+      <option>* - / +</option>
+      <option>+ - / *</option>
+      <option>* / + -</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What is an array?
+      ]]></title>
+      <option>An array is a collection of variables that are of the dissimilar data type.</option>
+      <option>An array is a collection of variables that are of the same data type.</option>
+      <option>An array is not a collection of variables that are of the same data type.</option>
+      <option>None of the above.</option>
+      <answer>2</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What is right way to Initialization array?
+      ]]></title>
+      <option>int num[6] = { 2, 4, 12, 5, 45, 5 } ;</option>
+      <option>int n{} = { 2, 4, 12, 5, 45, 5 } ;</option>
+      <option>int n{6} = { 2, 4, 12 } ;</option>
+      <option>int n(6) = { 2, 4, 12, 5, 45, 5 } ;</option>
+      <answer>1</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        An array elements are always stored in _________ memory locations.
+      ]]></title>
+      <option>Sequential</option>
+      <option>Random</option>
+      <option>Sequential and Random</option>
+      <option>None of the above</option>
+      <answer>1</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What is the right way to access value of structure variable book{ price, page }?
+      ]]></title>
+      <option>printf("%d%d", book.price, book.page);</option>
+      <option>printf("%d%d", price.book, page.book);</option>
+      <option>printf("%d%d", price::book, page::book);</option>
+      <option>printf("%d%d", price-&amp;gt;book, page-&amp;gt;book);</option>
+      <answer>1</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        perror() function used to ?
+      ]]></title>
+      <option>Work same as printf()</option>
+      <option>prints the error message specified by the compiler</option>
+      <option>prints the garbage value assigned by the compiler</option>
+      <option>None of the above</option>
+      <answer>2</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        Bitwise operators can operate upon?
+      ]]></title>
+      <option>double and chars</option>
+      <option>floats and doubles</option>
+      <option>ints and floats</option>
+      <option>ints and chars</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What is C Tokens?
+      ]]></title>
+      <option>The smallest individual units of c program</option>
+      <option>The basic element recognized by the compiler</option>
+      <option>The largest individual units of program</option>
+      <option>A &amp; B Both</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What is Keywords?
+      ]]></title>
+      <option>Keywords have some predefine meanings and these meanings can be changed.</option>
+      <option>Keywords have some unknown meanings and these meanings cannot be changed.</option>
+      <option>Keywords have some predefine meanings and these meanings cannot be changed.</option>
+      <option>None of the above</option>
+      <answer>3</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What is constant?
+      ]]></title>
+      <option>Constants have fixed values that do not change during the execution of a program</option>
+      <option>Constants have fixed values that change during the execution of a program</option>
+      <option>Constants have unknown values that may be change during the execution of a program</option>
+      <option>None of the above</option>
+      <answer>1</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        Which is the right way to declare constant in C?
+      ]]></title>
+      <option>int constant var =10;</option>
+      <option>int const var = 10;</option>
+      <option>const int var = 10;</option>
+      <option>B &amp; C Both</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        Which operators are known as Ternary Operator?
+      ]]></title>
+      <option>::, ?</option>
+      <option>?, :</option>
+      <option>?, ;;</option>
+      <option>None of the above</option>
+      <answer>2</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        In switch statement, each case instance value must be _______?
+      ]]></title>
+      <option>Constant</option>
+      <option>Variable</option>
+      <option>Special Symbol</option>
+      <option>None of the above</option>
+      <answer>1</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What is the work of break keyword?
+      ]]></title>
+      <option>Halt execution of program</option>
+      <option>Restart execution of program</option>
+      <option>Exit from loop or switch statement</option>
+      <option>None of the above</option>
+      <answer>3</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What is function?
+      ]]></title>
+      <option>Function is a block of statements that perform some specific task.</option>
+      <option>Function is the fundamental modular unit. A function is usually designed to perform a specific task.</option>
+      <option>Function is a block of code that performs a specific task. It has a name and it is reusable</option>
+      <option>All the above</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        Which one of the following sentences is true ?
+      ]]></title>
+      <option>The body of a while loop is executed at least once.</option>
+      <option>The body of a do ... while loop is executed at least once.</option>
+      <option>The body of a do ... while loop is executed zero or more times.</option>
+      <option>A for loop can never be used in place of a while loop.</option>
+      <answer>2</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        A binary tree with 27 nodes has _______ null branches.
+      ]]></title>
+      <option>54</option>
+      <option>27</option>
+      <option>26</option>
+      <option>None of the above</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        Which one of the following is not a linear data structure?
+      ]]></title>
+      <option>Array</option>
+      <option>Binary Tree</option>
+      <option>Queue</option>
+      <option>Stack</option>
+      <answer>2</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        Recursive functions are executed in a?
+      ]]></title>
+      <option>First In First Out Order</option>
+      <option>Load Balancing</option>
+      <option>Parallel Fashion</option>
+      <option>Last In First Out Order</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        Queue is a _____________ list.
+      ]]></title>
+      <option>LIFO</option>
+      <option>LILO</option>
+      <option>FILO</option>
+      <option>FIFO</option>
+      <answer>4</answer>
+    </question>
+  </easy>
+
+  <medium>
+    <question>
+      <title><![CDATA[
+        The statement printf("%d", 10 ? 0 ? 5 : 1 : 12); will print?
+      ]]></title>
+      <option>10</option>
+      <option>0</option>
+      <option>12</option>
+      <option>1</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        To represent hierarchical relationship between elements, which data structure is suitable?
+      ]]></title>
+      <option>Priority</option>
+      <option>Tree</option>
+      <option>Dqueue</option>
+      <option>All of the above</option>
+      <answer>2</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        Which of the following data structure is linear type?
+      ]]></title>
+      <option>Strings</option>
+      <option>Queue</option>
+      <option>Lists</option>
+      <option>All of the above</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        The statement printf("%c", 100); will print?
+      ]]></title>
+      <option>prints 100</option>
+      <option>print garbage</option>
+      <option>prints ASCII equivalent of 100</option>
+      <option>None of the above</option>
+      <answer>3</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        The _______ memory allocation function modifies the previous allocated space.
+      ]]></title>
+      <option>calloc</option>
+      <option>free</option>
+      <option>malloc</option>
+      <option>realloc</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        Number of binary trees formed with 5 nodes are
+      ]]></title>
+      <option>30</option>
+      <option>36</option>
+      <option>108</option>
+      <option>42</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        The "C" language is
+      ]]></title>
+      <option>Context free language</option>
+      <option>Context sensitive language</option>
+      <option>Regular language</option>
+      <option>None of the above</option>
+      <answer>1</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        The worst case time complexity of AVL tree is better in comparison to binary search tree for
+      ]]></title>
+      <option>Search and Insert Operations</option>
+      <option>Search and Delete Operations</option>
+      <option>Insert and Delete Operations</option>
+      <option>Search, Insert and Delete Operations</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        In which tree, for every node the height of its left subtree and right subtree differ almost by one?
+      ]]></title>
+      <option>Binary search tree</option>
+      <option>AVL tree</option>
+      <option>Threaded Binary Tree</option>
+      <option>Complete Binary Tree</option>
+      <answer>2</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        C is ______ Language?
+      ]]></title>
+      <option>Low Level</option>
+      <option>High Level</option>
+      <option>Assembly Level</option>
+      <option>Machine Level</option>
+      <answer>1</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        The Default Parameter Passing Mechanism is called as
+      ]]></title>
+      <option>Call by Value</option>
+      <option>Call by Reference</option>
+      <option>Call by Address</option>
+      <option>Call by Name</option>
+      <answer>1</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What is Dequeue?
+      ]]></title>
+      <option>Elements can be added from front</option>
+      <option>Elements can be added to or removed from either the front or rear</option>
+      <option>Elements can be added from rear</option>
+      <option>None of the above</option>
+      <answer>2</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        In which linked list last node address is null?
+      ]]></title>
+      <option>Doubly linked list</option>
+      <option>Circular list</option>
+      <option>Singly linked list</option>
+      <option>None of the above</option>
+      <answer>3</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        Which is the correct syntax to declare constant pointer?
+      ]]></title>
+      <option>int *const constPtr;</option>
+      <option>*int constant constPtr;</option>
+      <option>const int *constPtr;</option>
+      <option>A and C both</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be the output of the following arithmetic expression ?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>5+3*2%10-8*6
+        </div>
+      ]]></title>
+      <option>-37</option>
+      <option>-42</option>
+      <option>-32</option>
+      <option>-28</option>
+      <answer>1</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be the output of the following statement ?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>int a=10; printf("%d &amp;i",a,10);
+        </div>
+      ]]></title>
+      <option>error</option>
+      <option>10</option>
+      <option>10 10</option>
+      <option>none of these</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be the output of the following statement ?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>printf("%X%x%ci%x",11,10,'s',12);
+        </div>
+      ]]></title>
+      <option>error</option>
+      <option>basc</option>
+      <option>Bas94c</option>
+      <option>none of these</option>
+      <answer>2</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be the output of the following statements ?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>int a = 4, b = 7,c; c = a = = b; printf("%i",c);
+        </div>
+      ]]></title>
+      <option>0</option>
+      <option>error</option>
+      <option>1</option>
+      <option>garbage value</option>
+      <answer>1</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be the output of the following statements ?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>int a = 5, b = 2, c = 10, i = a&amp;gt;b
+<span class="line-number">2&nbsp;</span>
+<span class="line-number">3&nbsp;</span>void main()
+<span class="line-number">4&nbsp;</span>
+<span class="line-number">5&nbsp;</span>{ printf("hello"); main(); }
+        </div>
+      ]]></title>
+      <option>1</option>
+      <option>2</option>
+      <option>infinite number of times</option>
+      <option>none of these</option>
+      <answer>3</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be output if you will compile and execute the following c code?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>struct marks{
+<span class="line-number">2&nbsp;</span>  int p:3;
+<span class="line-number">3&nbsp;</span>  int c:3;
+<span class="line-number">4&nbsp;</span>  int m:2;
+<span class="line-number">5&nbsp;</span>};
+<span class="line-number">6&nbsp;</span>
+<span class="line-number">7&nbsp;</span>void main(){
+<span class="line-number">8&nbsp;</span>  struct marks s={2,-6,5};
+<span class="line-number">9&nbsp;</span>  printf("%d %d %d",s.p,s.c,s.m);
+<span class="line-number">10</span>}
+        </div>
+      ]]></title>
+      <option>2 -6 5</option>
+      <option>2 -6 1</option>
+      <option>2 2 1</option>
+      <option>Compiler error</option>
+      <option>None of these</option>
+      <answer>3</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be the output of the following statements ?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>int x[4] = {1,2,3}; printf("%d %d %D",x[3],x[2],x[1]);
+        </div>
+      ]]></title>
+      <option>03%D</option>
+      <option>000</option>
+      <option>032</option>
+      <option>321</option>
+      <answer>3</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be the output of the following statement ?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>printf( 3 + "goodbye");
+        </div>
+      ]]></title>
+      <option>goodbye</option>
+      <option>odbye</option>
+      <option>bye</option>
+      <option>dbye</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be the output of the following statements ?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>long int a = scanf("%ld%ld",&amp;a,&amp;a); printf("%ld",a);
+        </div>
+      ]]></title>
+      <option>error</option>
+      <option>garbage value</option>
+      <option>0</option>
+      <option>2</option>
+      <answer>2</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be the output of the following program ?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>#include
+<span class="line-number">2&nbsp;</span>
+<span class="line-number">3&nbsp;</span>void main(){
+<span class="line-number">4&nbsp;</span>  int a = 2;
+<span class="line-number">5&nbsp;</span>
+<span class="line-number">6&nbsp;</span>  switchA.
+<span class="line-number">7&nbsp;</span>  {
+<span class="line-number">8&nbsp;</span>    case 1: printf("goodbye"); break;
+<span class="line-number">9&nbsp;</span>    case 2: continue;
+<span class="line-number">10</span>    case 3: printf("bye");
+<span class="line-number">11</span>  }
+<span class="line-number">12</span>}
+        </div>
+      ]]></title>
+      <option>error</option>
+      <option>goodbye</option>
+      <option>bye</option>
+      <option>byegoodbye</option>
+      <answer>1</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be the output of the following statements ?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>int i = 1,j; j=i--- -2; printf("%d",j);
+        </div>
+      ]]></title>
+      <option>error</option>
+      <option>2</option>
+      <option>3</option>
+      <option>-3</option>
+      <answer>3</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be the output of following program ?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>#include
+<span class="line-number">2&nbsp;</span>
+<span class="line-number">3&nbsp;</span>main()
+<span class="line-number">4&nbsp;</span>
+<span class="line-number">5&nbsp;</span>{
+<span class="line-number">6&nbsp;</span>
+<span class="line-number">7&nbsp;</span>  int x,y = 10;
+<span class="line-number">8&nbsp;</span>
+<span class="line-number">9&nbsp;</span>  x = y * NULL;
+<span class="line-number">10</span>
+<span class="line-number">11</span>  printf("%d",x);
+<span class="line-number">12</span>
+<span class="line-number">13</span>}
+        </div>
+      ]]></title>
+      <option>error</option>
+      <option>0</option>
+      <option>10</option>
+      <option>garbage value</option>
+      <answer>2</answer>
+    </question>
+  </medium>
+
+  <hard>
+    <question>
+      <title><![CDATA[
+        What will be the output of following statements ?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>char x[ ] = "hello hi"; printf("%d%d",sizeof(*x),sizeof(x));
+        </div>
+      ]]></title>
+      <option>88</option>
+      <option>18</option>
+      <option>29</option>
+      <option>19</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be the output of the following statements ?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>int a=5,b=6,c=9,d; d=(ac?1:2):(c&amp;gt;b?6:8)); printf("%d",d);
+        </div>
+      ]]></title>
+      <option>1</option>
+      <option>2</option>
+      <option>6</option>
+      <option>Error</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be the output of the following statements ?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>int i = 3;
+<span class="line-number">2&nbsp;</span>
+<span class="line-number">3&nbsp;</span>printf("%d%d",i,i++);
+        </div>
+      ]]></title>
+      <option>34</option>
+      <option>43</option>
+      <option>44</option>
+      <option>33</option>
+      <answer>2</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be the output of the following program ?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>#include
+<span class="line-number">2&nbsp;</span>
+<span class="line-number">3&nbsp;</span>void main()
+<span class="line-number">4&nbsp;</span>
+<span class="line-number">5&nbsp;</span>{
+<span class="line-number">6&nbsp;</span>
+<span class="line-number">7&nbsp;</span>  int a = 36, b = 9;
+<span class="line-number">8&nbsp;</span>
+<span class="line-number">9&nbsp;</span>  printf("%d",a&amp;gt;&amp;gt;a/b-2);
+<span class="line-number">10</span>
+<span class="line-number">11</span>}
+        </div>
+      ]]></title>
+      <option>9</option>
+      <option>7</option>
+      <option>5</option>
+      <option>none of these</option>
+      <answer>1</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        <div class="code">
+<span class="line-number">1&nbsp;</span>int testarray[3][2][2] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
+        </div>
+        What value does testarray[2][1][0] in the sample code above contain?
+      ]]></title>
+      <option>11</option>
+      <option>7</option>
+      <option>5</option>
+      <option>9</option>
+      <answer>1</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        <div class="code">
+<span class="line-number">1&nbsp;</span>void main()
+<span class="line-number">2&nbsp;</span>
+<span class="line-number">3&nbsp;</span>{
+<span class="line-number">4&nbsp;</span>
+<span class="line-number">5&nbsp;</span>  int a=10,b=20;
+<span class="line-number">6&nbsp;</span>
+<span class="line-number">7&nbsp;</span>  char x=1,y=0;
+<span class="line-number">8&nbsp;</span>
+<span class="line-number">9&nbsp;</span>  if(a,b,x,y)
+<span class="line-number">10</span>  {
+<span class="line-number">11</span>    printf("EXAM");
+<span class="line-number">12</span>  }
+<span class="line-number">13</span>
+<span class="line-number">14</span>}
+        </div>
+        What is the output?
+      ]]></title>
+      <option>XAM is printed</option>
+      <option>exam is printed</option>
+      <option>Compiler Error</option>
+      <option>Nothing is printed</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What is the output of the following code?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>#include
+<span class="line-number">2&nbsp;</span>
+<span class="line-number">3&nbsp;</span>void main()
+<span class="line-number">4&nbsp;</span>{
+<span class="line-number">5&nbsp;</span>  int s=0;
+<span class="line-number">6&nbsp;</span>  while(s++&amp;lt;10)&amp;gt;
+<span class="line-number">7&nbsp;</span>
+<span class="line-number">8&nbsp;</span># define a 10
+<span class="line-number">9&nbsp;</span>
+<span class="line-number">10</span>  main()
+<span class="line-number">11</span>  {
+<span class="line-number">12</span>    printf("%d..",a);
+<span class="line-number">13</span>    foo();
+<span class="line-number">14</span>    printf("%d",a);
+<span class="line-number">15</span>  }
+<span class="line-number">16</span>
+<span class="line-number">17</span>    void foo()
+<span class="line-number">18</span>    {
+<span class="line-number">19</span>#undef a
+<span class="line-number">20</span>#define a 50
+<span class="line-number">21</span>    }
+        </div>
+      ]]></title>
+      <option>10..10</option>
+      <option>10..50</option>
+      <option>Error</option>
+      <option>0</option>
+      <answer>3</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        <div class="code">
+<span class="line-number">1&nbsp;</span>main()
+<span class="line-number">2&nbsp;</span>{
+<span class="line-number">3&nbsp;</span>
+<span class="line-number">4&nbsp;</span>  struct
+<span class="line-number">5&nbsp;</span>  {
+<span class="line-number">6&nbsp;</span>    int i;
+<span class="line-number">7&nbsp;</span>  }xyz;
+<span class="line-number">8&nbsp;</span>
+<span class="line-number">9&nbsp;</span>  (*xyz)-&amp;gt;i=10;
+<span class="line-number">10</span>
+<span class="line-number">11</span>  printf("%d",xyz.i);
+<span class="line-number">12</span>
+<span class="line-number">13</span>}
+        </div>
+        What is the output of this program?
+      ]]></title>
+      <option>program will not compile</option>
+      <option>10</option>
+      <option>god only knows</option>
+      <option>address of I</option>
+      <answer>2</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will happen if in a C program you assign a value to an array element whose subscript exceeds the size of array?
+      ]]></title>
+      <option> The element will be set to 0.</option>
+      <option> The compiler would report an error.</option>
+      <option> The program may crash if some important data gets overwritten.</option>
+      <option> The array size would appropriately grow.</option>
+      <answer>3</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What would be the output of the following program?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>#include
+<span class="line-number">2&nbsp;</span>
+<span class="line-number">3&nbsp;</span>main()
+<span class="line-number">4&nbsp;</span>{
+<span class="line-number">5&nbsp;</span>  char str[]="S\065AB";
+<span class="line-number">6&nbsp;</span>  printf("\n%d", sizeof(str));
+<span class="line-number">7&nbsp;</span>}
+        </div>
+      ]]></title>
+      <option>7</option>
+      <option>6</option>
+      <option>5</option>
+      <option>error</option>
+      <answer>2</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be the value of `a` after the following code is executed
+        <div class="code">
+<span class="line-number">1&nbsp;</span>#define square(x) x*x
+<span class="line-number">2&nbsp;</span>
+<span class="line-number">3&nbsp;</span>a = square(2+3);
+        </div>
+      ]]></title>
+      <option>25</option>
+      <option>13</option>
+      <option>11</option>
+      <option>10</option>
+      <answer>3</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        <div class="code">
+<span class="line-number">1&nbsp;</span>long factorial (long x)
+<span class="line-number">2&nbsp;</span>{
+<span class="line-number">3&nbsp;</span>  ????
+<span class="line-number">4&nbsp;</span>
+<span class="line-number">5&nbsp;</span>  return x * factorial(x - 1);
+<span class="line-number">6&nbsp;</span>}
+        </div>
+        With what do you replace the ???? to make the function shown above return the correct answer?
+      ]]></title>
+      <option>if (x == 0) return 0;</option>
+      <option>return 1;</option>
+      <option>if (x &amp;gt;= 2) return 2;</option>
+      <option>if (x &amp;lt;= 1) return 1;</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        <div class="code">
+<span class="line-number">1&nbsp;</span>int y[4] = {6, 7, 8, 9};
+<span class="line-number">2&nbsp;</span>
+<span class="line-number">3&nbsp;</span>int *ptr = y + 2; printf("%d\n", ptr[ 1 ] );
+        </div>
+        What is printed when the sample code above is executed?
+      ]]></title>
+      <option>6</option>
+      <option>7</option>
+      <option>8</option>
+      <option>9</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        <div class="code">
+<span class="line-number">1&nbsp;</span>int i = 4;
+<span class="line-number">2&nbsp;</span>
+<span class="line-number">3&nbsp;</span>switch (i)
+<span class="line-number">4&nbsp;</span>{
+<span class="line-number">5&nbsp;</span>  default: ;
+<span class="line-number">6&nbsp;</span>  case 3:
+<span class="line-number">7&nbsp;</span>          i += 5;
+<span class="line-number">8&nbsp;</span>          if (i == 8)
+<span class="line-number">9&nbsp;</span>          {
+<span class="line-number">10</span>            i++;
+<span class="line-number">11</span>            if (i == 9) break;
+<span class="line-number">12</span>            i *= 2;
+<span class="line-number">13</span>          }
+<span class="line-number">14</span>          i -= 4;
+<span class="line-number">15</span>          break;
+<span class="line-number">16</span>  case 8:
+<span class="line-number">17</span>          i += 5;
+<span class="line-number">18</span>          break;
+<span class="line-number">19</span>
+<span class="line-number">20</span>}
+<span class="line-number">21</span>
+<span class="line-number">22</span>printf("i = %d\n", i);
+        </div>
+        What will the output of the sample code above be?
+      ]]></title>
+      <option>i = 5</option>
+      <option>i = 8</option>
+      <option>i = 9</option>
+      <option>i = 10</option>
+      <answer>1</answer>
+    </question>
+
+
+
+    <question>
+      <title><![CDATA[
+        What will be output if you will compile and execute the following c code?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>void main()
+<span class="line-number">2&nbsp;</span>{
+<span class="line-number">3&nbsp;</span>  if(printf("cquestionbank"))
+<span class="line-number">4&nbsp;</span>    printf("I know c");
+<span class="line-number">5&nbsp;</span>
+<span class="line-number">6&nbsp;</span>  else
+<span class="line-number">7&nbsp;</span>    printf("I know c++");
+<span class="line-number">8&nbsp;</span>}
+        </div>
+      ]]></title>
+      <option>I know c</option>
+      <option>I know c++</option>
+      <option>cquestionbankI know c</option>
+      <option>cquestionbankI know c++</option>
+      <option>Compiler error</option>
+      <answer>3</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be output if you will compile and execute the following c code?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>#define call(x) #x
+<span class="line-number">2&nbsp;</span>
+<span class="line-number">3&nbsp;</span>void main(){
+<span class="line-number">4&nbsp;</span>
+<span class="line-number">5&nbsp;</span>  printf("%s",call(c/c++));
+<span class="line-number">6&nbsp;</span>
+<span class="line-number">7&nbsp;</span>}
+        </div>
+      ]]></title>
+      <option>c</option>
+      <option>c++</option>
+      <option>#c/c++</option>
+      <option>c/c++</option>
+      <option>Compiler error</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be output if you will compile and execute the following c code?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>#define message "union is\
+<span class="line-number">2&nbsp;</span>
+<span class="line-number">3&nbsp;</span>power of c"
+<span class="line-number">4&nbsp;</span>
+<span class="line-number">5&nbsp;</span>void main()
+<span class="line-number">6&nbsp;</span>{
+<span class="line-number">7&nbsp;</span>
+<span class="line-number">8&nbsp;</span>  clrscr();
+<span class="line-number">9&nbsp;</span>  printf("%s",message);
+<span class="line-number">10</span>  getch();
+<span class="line-number">11</span>
+<span class="line-number">12</span>}
+        </div>
+      ]]></title>
+      <option>union is power of c</option>
+      <option>union is power of c</option>
+      <option>union is Power of c</option>
+      <option>Compiler error</option>
+      <option>None of these</option>
+      <answer>2</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be output if you will compile and execute the following c code?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>void main(){
+<span class="line-number">2&nbsp;</span>
+<span class="line-number">3&nbsp;</span>  int a=25;
+<span class="line-number">4&nbsp;</span>  clrscr();
+<span class="line-number">5&nbsp;</span>  printf("%o %x",a,a);
+<span class="line-number">6&nbsp;</span>  getch();
+<span class="line-number">7&nbsp;</span>}
+        </div>
+      ]]></title>
+      <option>25 25</option>
+      <option>025 0x25</option>
+      <option>12 42</option>
+      <option>31 19</option>
+      <option>None of these</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be output if you will compile and execute the following c code?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>void main()
+<span class="line-number">2&nbsp;</span>{
+<span class="line-number">3&nbsp;</span>  int i=0;
+<span class="line-number">4&nbsp;</span>
+<span class="line-number">5&nbsp;</span>  if(i==0)
+<span class="line-number">6&nbsp;</span>  {
+<span class="line-number">7&nbsp;</span>    i=((5,(i=3)),i=1);
+<span class="line-number">8&nbsp;</span>
+<span class="line-number">9&nbsp;</span>    printf("%d",i);
+<span class="line-number">10</span>  }
+<span class="line-number">11</span>  else
+<span class="line-number">12</span>    printf("equal");
+<span class="line-number">13</span>}
+        </div>
+      ]]></title>
+      <option>5</option>
+      <option>3</option>
+      <option>1</option>
+      <option>equal</option>
+      <option>None of above</option>
+      <answer>3</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be output if you will compile and execute the following c code?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>int extern x;
+<span class="line-number">2&nbsp;</span>
+<span class="line-number">3&nbsp;</span>void main()
+<span class="line-number">4&nbsp;</span>
+<span class="line-number">5&nbsp;</span>  printf("%d",x);
+<span class="line-number">6&nbsp;</span>
+<span class="line-number">7&nbsp;</span>  x=2;
+<span class="line-number">8&nbsp;</span>
+<span class="line-number">9&nbsp;</span>  getch();
+<span class="line-number">10</span>
+<span class="line-number">11</span>}
+<span class="line-number">12</span>
+<span class="line-number">13</span>int x=23;
+        </div>
+      ]]></title>
+      <option>0</option>
+      <option>2</option>
+      <option>23</option>
+      <option>Compiler error</option>
+      <option>None of these</option>
+      <answer>3</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be output if you will compile and execute the following c code?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>void main(){
+<span class="line-number">2&nbsp;</span>
+<span class="line-number">3&nbsp;</span>  int a,b;
+<span class="line-number">4&nbsp;</span>
+<span class="line-number">5&nbsp;</span>  a=1,3,15;
+<span class="line-number">6&nbsp;</span>
+<span class="line-number">7&nbsp;</span>  b=(2,4,6);
+<span class="line-number">8&nbsp;</span>
+<span class="line-number">9&nbsp;</span>  clrscr();
+<span class="line-number">10</span>
+<span class="line-number">11</span>  printf("%d ",a+b);
+<span class="line-number">12</span>
+<span class="line-number">13</span>  getch();
+<span class="line-number">14</span>
+<span class="line-number">15</span>}
+        </div>
+      ]]></title>
+      <option>3</option>
+      <option>21</option>
+      <option>17</option>
+      <option>7</option>
+      <option>Compiler error</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be output if you will compile and execute the following c code?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>void main(){
+<span class="line-number">2&nbsp;</span>
+<span class="line-number">3&nbsp;</span>  static main;
+<span class="line-number">4&nbsp;</span>
+<span class="line-number">5&nbsp;</span>  int x;
+<span class="line-number">6&nbsp;</span>
+<span class="line-number">7&nbsp;</span>  x=call(main);
+<span class="line-number">8&nbsp;</span>
+<span class="line-number">9&nbsp;</span>  clrscr();
+<span class="line-number">10</span>
+<span class="line-number">11</span>  printf("%d ",x);
+<span class="line-number">12</span>
+<span class="line-number">13</span>  getch();
+<span class="line-number">14</span>
+<span class="line-number">15</span>}
+<span class="line-number">16</span>
+<span class="line-number">17</span>int call(int address){
+<span class="line-number">18</span>
+<span class="line-number">19</span>  address++;
+<span class="line-number">20</span>
+<span class="line-number">21</span>  return address;
+<span class="line-number">22</span>
+<span class="line-number">23</span>}
+        </div>
+      ]]></title>
+      <option>0</option>
+      <option>1</option>
+      <option>Garbage value</option>
+      <option>Compiler error</option>
+      <option>None of these</option>
+      <answer>2</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be output if you will compile and execute the following c code?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>void main(){
+<span class="line-number">2&nbsp;</span>
+<span class="line-number">3&nbsp;</span>  if(printf("cquestionbank"))
+<span class="line-number">4&nbsp;</span>    printf("I know c");
+<span class="line-number">5&nbsp;</span>  else
+<span class="line-number">6&nbsp;</span>    printf("I know c++");
+<span class="line-number">7&nbsp;</span>
+<span class="line-number">8&nbsp;</span>}
+        </div>
+      ]]></title>
+      <option>I know c</option>
+      <option>I know c++</option>
+      <option>cquestionbankI know c</option>
+      <option>cquestionbankI know c++</option>
+      <option>Compiler error</option>
+      <answer>3</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be output if you will compile and execute the following c code?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>#define message "union is\
+<span class="line-number">2&nbsp;</span>
+<span class="line-number">3&nbsp;</span>power of c"
+<span class="line-number">4&nbsp;</span>
+<span class="line-number">5&nbsp;</span>void main(){
+<span class="line-number">6&nbsp;</span>  clrscr();
+<span class="line-number">7&nbsp;</span>  printf("%s",message);
+<span class="line-number">8&nbsp;</span>  getch();
+<span class="line-number">9&nbsp;</span>}
+        </div>
+      ]]></title>
+      <option>union is power of c</option>
+      <option>Compiler error</option>
+      <option>None of these</option>
+      <answer>2</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be output if you will compile and execute the following c code?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>void main(){
+<span class="line-number">2&nbsp;</span>  int i=0;
+<span class="line-number">3&nbsp;</span>  if(i==0){
+<span class="line-number">4&nbsp;</span>    i=((5,(i=3)),i=1);
+<span class="line-number">5&nbsp;</span>    printf("%d",i);
+<span class="line-number">6&nbsp;</span>  }
+<span class="line-number">7&nbsp;</span>  else
+<span class="line-number">8&nbsp;</span>    printf("equal");
+<span class="line-number">9&nbsp;</span>}
+        </div>
+      ]]></title>
+      <option>5</option>
+      <option>3</option>
+      <option>1</option>
+      <option>equal</option>
+      <option>None of above</option>
+      <answer>3</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be output if you will compile and execute the following c code?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>#include "string.h"
+<span class="line-number">2&nbsp;</span>
+<span class="line-number">3&nbsp;</span>void main(){
+<span class="line-number">4&nbsp;</span>
+<span class="line-number">5&nbsp;</span>  clrscr();
+<span class="line-number">6&nbsp;</span>
+<span class="line-number">7&nbsp;</span>  printf("%d %d",sizeof("string"),strlen("string"));
+<span class="line-number">8&nbsp;</span>
+<span class="line-number">9&nbsp;</span>  getch();
+<span class="line-number">10</span>
+<span class="line-number">11</span>}
+        </div>
+      ]]></title>
+      <option>6 6</option>
+      <option>7 7</option>
+      <option>6 7</option>
+      <option>7 6</option>
+      <option>None of these</option>
+      <answer>4</answer>
+    </question>
+
+    <question>
+      <title><![CDATA[
+        What will be output if you will compile and execute the following c code?
+        <div class="code">
+<span class="line-number">1&nbsp;</span>void main(){
+<span class="line-number">2&nbsp;</span>
+<span class="line-number">3&nbsp;</span>  int huge*p=(int huge*)0XC0563331;
+<span class="line-number">4&nbsp;</span>
+<span class="line-number">5&nbsp;</span>  int huge*q=(int huge*)0xC2551341;
+<span class="line-number">6&nbsp;</span>
+<span class="line-number">7&nbsp;</span>  *p=200;
+<span class="line-number">8&nbsp;</span>
+<span class="line-number">9&nbsp;</span>  printf("%d",*q);
+<span class="line-number">10</span>
+<span class="line-number">11</span>}
+        </div>
+      ]]></title>
+      <option>0</option>
+      <option>Garbage value</option>
+      <option>null</option>
+      <option>200</option>
+      <option>Compiler error</option>
+      <answer>4</answer>
+    </question>
+  </hard>
+</data>
